@@ -1,3 +1,6 @@
+#!/usr/bin/env python2.7
+# coding: UTF-8
+
 from pwn import *
 
 r = process('./precision')
