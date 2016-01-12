@@ -3,8 +3,8 @@
 #include <string.h>
 
 /*
-$ gcc vuln.c -fno-stack-protector -o vuln
 $ sudo sysctl -w kernel.randomize_va_space=0
+$ gcc vuln.c -fno-stack-protector -o vuln
 */
 
 int main(int argc, char *argv[])
