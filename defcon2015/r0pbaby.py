@@ -38,6 +38,10 @@ Mapped address spaces:
       0x7ffff7bcb000     0x7ffff7bcf000     0x4000   0x1bb000 /lib/x86_64-linux-gnu/libc-2.19.so
       0x7ffff7bcf000     0x7ffff7bd1000     0x2000   0x1bf000 /lib/x86_64-linux-gnu/libc-2.19.so
 
+(gdb) x/s 0x7ffff7810000
+0x7ffff7810000: "\177ELF\002\001\001"
+
+
 $ rp --file=/lib/x86_64-linux-gnu/libc.so.6 --rop=1 | grep 'pop rdi ; ret'| less
 0x00022a0a: pop rdi ; ret  ;  (1 found) # doesn't work
 0x00022a21: pop rdi ; ret  ;  (1 found)
