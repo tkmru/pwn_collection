@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /*
 $ gcc vuln.c -m32 -fno-stack-protector -o vuln

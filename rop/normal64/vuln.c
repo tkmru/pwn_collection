@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /*
 $ sudo sysctl -w kernel.randomize_va_space=0
