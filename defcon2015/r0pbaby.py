@@ -1,8 +1,6 @@
 # coding: UTF-8
 
 from pwn import *
-from struct import pack, unpack
-
 
 '''
 $ checksec.sh  --file r0pbaby 
