@@ -1,3 +1,4 @@
 peda-session*.txt
 .gdb_history
 core
+*.hop
